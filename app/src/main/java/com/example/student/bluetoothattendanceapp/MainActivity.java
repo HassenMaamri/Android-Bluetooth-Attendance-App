@@ -1,6 +1,5 @@
 package com.example.student.bluetoothattendanceapp;
 
-
 import android.database.Cursor;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
@@ -27,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements RecyclerItemClick
 
     private SQLiteDB sqLiteDB;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerItemClick
                 ActActivity.start(MainActivity.this);
             }
         });
+
     }
 
     @Override
