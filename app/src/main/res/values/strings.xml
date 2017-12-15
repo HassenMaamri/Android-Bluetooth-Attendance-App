@@ -12,4 +12,6 @@
     <string name="button_return02">Cancel</string>
     <string name="button_confirm">Confirm Event</string>
 
+    <string name="button_host_main">Host Event</string>
+    <string name="button_attend_main">Attend Event</string>
 </resources>
