@@ -62,6 +62,8 @@ public class ActActivity extends AppCompatActivity implements View.OnClickListen
         }else{
             btnEdit.setVisibility(View.GONE);
             btnDelete.setVisibility(View.GONE);
+            btnStart.setVisibility(View.GONE);
+
         }
 
         sqLiteDB = new SQLiteDB(this);

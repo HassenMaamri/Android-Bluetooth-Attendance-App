@@ -13,6 +13,9 @@ public class Prospective {
         return people;
     }
 
+    public void setPeople(String[] people) {
+        this.people = people;
+    }
 }
 
 
